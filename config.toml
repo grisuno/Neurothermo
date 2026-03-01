@@ -1,0 +1,13 @@
+[core]
+window_size = 50
+enable_logging = false
+
+[thresholds]
+delta_crystal_threshold = 0.1
+delta_glass_threshold = 0.4
+purity_high_threshold = 7.0
+zero_epsilon = 1.0e-6
+numerical_stability_epsilon = 1.0e-9
+
+[computation]
+gradient_buffer_window = 50
