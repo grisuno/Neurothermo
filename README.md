@@ -19,7 +19,7 @@ Neurothermo implements phase transition detection during neural network training
 ## Installation
 
 ```bash
-pip install neurothermo
+git clone https://github.com/grisuno/Neurothermo.git
 ```
 
 Or copy `neurothermo.py` to your project.
