@@ -284,7 +284,7 @@ This library is based on the Algorithmic Thermodynamics framework, which treats 
 
 ## License
 
-MIT License
+AGPL v3
 
 ## References
 
