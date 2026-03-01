@@ -39,7 +39,7 @@ for epoch in range(10):
     metrics = monitor.step(loss=loss.item())
     optimizer.step()
 
-    print(f"Epoch {epoch}: Delta={metrics.get('delta'):.4f}, Phase={metrics.phase.name}")
+    print(f"Epoch {epoch}: Delta={metrics.get('delta'):.4f}")
 
 # ALL metrics computed here
 print()
