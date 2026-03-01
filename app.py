@@ -5,7 +5,7 @@ app.py
 
 Autor: Gris Iscomeback
 Correo electrónico: grisiscomeback[at]gmail[dot]com
-Fecha de creación: xx/xx/xxxx
+Fecha de creación: 28/02/2026
 Licencia: GPL v3
 
 Descripción:  QUICK START - neurothermo library.
