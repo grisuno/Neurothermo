@@ -1,0 +1,22 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:58:08Z",
+  "project_root": "/tmp/readmenator_Neurothermo_pe3oc3v6",
+  "files": 3,
+  "symbols": 30,
+  "imports": 198,
+  "resolved_imports": 1,
+  "security_findings": 0,
+  "languages": {
+    "py": 2,
+    "sh": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
