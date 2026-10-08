@@ -1,0 +1,1126 @@
+{
+  "concepts": [
+    {
+      "name": "metrics",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "delta",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "only",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "all",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "summary",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "training",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "during",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neurothermo",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "computed",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "history",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "instant",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "library",
+      "files": [
+        "app.py",
+        "neurothermo.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [
+    {
+      "source": "all",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "all",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "computed",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "delta",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "during",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "history",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "instant",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "library",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "neurothermo",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "metrics",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "computed",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "delta",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "during",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "history",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "instant",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "library",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "metrics",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "only",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "summary",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "neurothermo",
+      "target": "training",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    },
+    {
+      "source": "only",
+      "target": "all",
+      "verb": "depends_on",
+      "strength": 1.0,
+      "confidence": "INFERRED",
+      "evidence": [
+        "app.py->neurothermo.py"
+      ]
+    }
+  ],
+  "dialectic": [
+    "Thesis: `all` centralizes 2 files; Antithesis: `computed` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `delta` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `during` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `history` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `instant` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `library` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `metrics` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `neurothermo` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `only` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?",
+    "Thesis: `all` centralizes 2 files; Antithesis: `summary` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `depends_on` explicit?"
+  ]
+}
